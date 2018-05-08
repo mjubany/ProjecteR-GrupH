@@ -1,2 +1,3 @@
-# ProjecteR-GrupH
-Projecte R - Grup H
+# [GrupH] ProjecteR:
+
+Pregunta: 
