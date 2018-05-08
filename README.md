@@ -1,3 +1,3 @@
-# [GrupH] ProjecteR:
+# [GrupH] ProjecteR
 
 Pregunta: 
