@@ -1,4 +1,4 @@
-# [GrupH] ProjecteR
+# [Grupo H] Projecte R
 
 ## Introducción
 
