@@ -17,5 +17,5 @@ OPCIONAL:
 ## Datasets
 
 - Usuarios en Internet: https://datamarket.com/data/set/14ns/internet-users-per-100-people#!ds=14ns!gop&display=line
-- Exploits: 
+- Exploits: https://github.com/r-net-tools/security.datasets/raw/master/net.security/sysdata.rda
 - Vulnerabilidades: https://cve.mitre.org/data/downloads/
