@@ -8,6 +8,8 @@ El objetivo de este proyecto es correlar el aumento de usuarios en Internet con 
 - **¿Qué explicación/relación tienen los picos de creación de exploits con el momento socio-económico del momento?**
 - **¿Qué relación existe entre el número de vulnerabilidades y el número de exploits? ¿Tienen una relación directamente proporcional?**
 - **¿Cuál es el Top10 de desarrolladores de exploits?**
+- **¿Cuantos desarrolladores hay por año? ¿Qué tendencia sigue?**
+- **¿Cómo se reparte el porcetanje de exploits desarrollados respecto el número de desarrolladores?**
 
 OPCIONAL:
 - **Relacionar desarrolladores de exploits con sus cuentas de twitter**
@@ -15,5 +17,5 @@ OPCIONAL:
 ## Datasets
 
 - Usuarios en Internet: https://datamarket.com/data/set/14ns/internet-users-per-100-people#!ds=14ns!gop&display=line
-- Exploits: https://cve.mitre.org/data/downloads/
-- Vulnerabilidades:
+- Exploits: 
+- Vulnerabilidades: https://cve.mitre.org/data/downloads/
