@@ -1,4 +1,4 @@
-# [Grupo H] Projecte R
+# [Grupo H] Proyecto R
 
 ## Introducción
 
