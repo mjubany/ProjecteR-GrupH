@@ -5,9 +5,13 @@
 El objetivo de este proyecto es correlar el aumento de usuarios en Internet con el número de exploits creados por año. En un principio, el  número de exploits debería ser directamente proporcional al número de vulnerabilidades encontradas.
 
 - **¿Qué tendencia seguirá en los próximos años?**
+
 - **¿Qué explicación/relación tienen los picos de creación de exploits con el momento socio-económico del momento?**
+
 - **¿Cuál es el Top10 de desarrolladores de exploits?**
+	Código en el archivo top10.R
 - **¿Cuantos desarrolladores hay por año? ¿Qué tendencia sigue?**
+	Código en el archivo developersPerYear.R
 
 ## Datasets
 
