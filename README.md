@@ -9,9 +9,6 @@ El objetivo de este proyecto es correlar el aumento de usuarios en Internet con 
 - **¿Cuál es el Top10 de desarrolladores de exploits?**
 - **¿Cuantos desarrolladores hay por año? ¿Qué tendencia sigue?**
 
-OPCIONAL:
-- **Relacionar desarrolladores de exploits con sus cuentas de twitter**
-
 ## Datasets
 
 - Usuarios en Internet [1960-2015]: https://datamarket.com/data/set/14ns/internet-users-per-100-people#!ds=14ns!gop&display=line
