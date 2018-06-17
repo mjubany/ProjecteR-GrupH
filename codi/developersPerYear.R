@@ -1,9 +1,10 @@
 install.packages("dplyr")
-install.packages("lubridate") #Per treballar amb dates
-install.packages("ggplot2")
-
 library(dplyr)
+
+install.packages("lubridate") #Per treballar amb dates
 library(lubridate)
+
+install.packages("ggplot2")
 library(ggplot2)
 
 exploitsData <- read.csv(file="C:/Users/Carles/Documents/exploitDataSet.csv", header=TRUE, sep=",")
@@ -12,35 +13,12 @@ dataFiltered <- dplyr::select(exploitsData, date, author)
 
 dataFiltered <- dplyr::mutate(dataFiltered, date = year(date))
 
-dataFiltered %>% dplyr::group_by(dataFiltered$date) %>%
-  dplyr::summarise(n = n())
-
 
 yearsLabel <- min(dataFiltered$date):max(dataFiltered$date)
 
 yearsTable <- table(yearsLabel) - 1
 
-for (exploitDate in dataFiltered$date) {
-  yearsTable[names(yearsTable)==year(exploitDate)] <- yearsTable[names(yearsTable)==year(exploitDate)] + 1
-}
-
-
-# for (row in 1:nrow(dataFiltered)) {
-#   #author <- dataFiltered[row, "author"]
-#   date  <- dataFiltered[row, "date"]
-#
-#   temp <- dplyr::count(dataFiltered, author, date)
-#
-#   numDevelopers <- nrow(dplyr::filter(temp, date == date))
-#
-#   yearsTable[names(yearsTable) == date] <- numDevelopers
-#
-#   #yearsTable[names(yearsTable)==year] <- yearsTable[names(yearsTable)==year]
-# }
-
 for (year in yearsLabel) {
-  #date  <- dataFiltered[row, "date"]
-
   temp <- dplyr::count(dataFiltered, author, date)
 
   numDevelopers <- nrow(dplyr::filter(temp, date == year))
