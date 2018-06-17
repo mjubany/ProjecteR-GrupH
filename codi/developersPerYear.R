@@ -7,7 +7,10 @@ library(lubridate)
 install.packages("ggplot2")
 library(ggplot2)
 
-exploitsData <- read.csv(file="C:/Users/Carles/Documents/exploitDataSet.csv", header=TRUE, sep=",")
+#Modificar per el directori que calgui
+setwd("C:/Users/Carles/source/repos/ProjecteR/ProjecteR-GrupH/")
+
+exploitsData <- read.csv(file="./datasets/exploitDataSet.csv", header=TRUE, sep=",")
 
 dataFiltered <- dplyr::select(exploitsData, date, author)
 
