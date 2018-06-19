@@ -11,6 +11,6 @@ El objetivo de este proyecto es el de sacar conclusiones sobre el desarrollo de 
 
 ## Dataset
 
-El dataset que hemos utilizado para resolver las preguntas és el siguiente
+El dataset que hemos utilizado para resolver las preguntas es el siguiente
 
 - Exploits y sus desarrolladores: https://raw.githubusercontent.com/offensive-security/exploit-database/master/files_exploits.csv
